@@ -5,7 +5,7 @@ from builtins import (open, str, range,
                       object)
 
 from flask import Flask, jsonify, abort,request,render_template,Response,make_response
-from flask_restplus import Api, Resource,reqparse
+from flask_restx import Api, Resource,reqparse
 from flask.json import JSONEncoder
 
 from astropy.table import Table
